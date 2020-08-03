@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="64019" started-at="2020-07-31T09:48:08Z" finished-at="2020-07-31T09:49:12Z">
+    <groups>
+      <group name="Regression">
+        <method signature="Scenario2.AddProductToCart()[pri:0, instance:Scenarios.Scenario2@6328d34a]" name="AddProductToCart" class="Scenarios.Scenario2"/>
+        <method signature="Scenario3.ViewMoreAndAddToCart()[pri:0, instance:Scenarios.Scenario3@145eaa29]" name="ViewMoreAndAddToCart" class="Scenarios.Scenario3"/>
+        <method signature="Scenario4.LoginPageFailure()[pri:0, instance:Scenarios.Scenario4@18a70f16]" name="LoginPageFailure" class="Scenarios.Scenario4"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="Scenario1.SearchProduct()[pri:0, instance:Scenarios.Scenario1@2357d90a]" name="SearchProduct" class="Scenarios.Scenario1"/>
+        <method signature="Scenario3.ViewMoreAndAddToCart()[pri:0, instance:Scenarios.Scenario3@145eaa29]" name="ViewMoreAndAddToCart" class="Scenarios.Scenario3"/>
+        <method signature="Scenario4.LoginPageFailure()[pri:0, instance:Scenarios.Scenario4@18a70f16]" name="LoginPageFailure" class="Scenarios.Scenario4"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Test" duration-ms="64019" started-at="2020-07-31T09:48:08Z" finished-at="2020-07-31T09:49:12Z">
+      <class name="Scenarios.Scenario4">
+        <test-method status="PASS" signature="LoginPageFailure()[pri:0, instance:Scenarios.Scenario4@18a70f16]" name="LoginPageFailure" duration-ms="13550" started-at="2020-07-31T15:18:59Z" finished-at="2020-07-31T15:19:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPageFailure -->
+      </class> <!-- Scenarios.Scenario4 -->
+      <class name="Scenarios.Scenario3">
+        <test-method status="PASS" signature="ViewMoreAndAddToCart()[pri:0, instance:Scenarios.Scenario3@145eaa29]" name="ViewMoreAndAddToCart" duration-ms="20548" started-at="2020-07-31T15:18:38Z" finished-at="2020-07-31T15:18:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewMoreAndAddToCart -->
+      </class> <!-- Scenarios.Scenario3 -->
+      <class name="Scenarios.Scenario2">
+        <test-method status="PASS" signature="AddProductToCart()[pri:0, instance:Scenarios.Scenario2@6328d34a]" name="AddProductToCart" duration-ms="16979" started-at="2020-07-31T15:18:21Z" finished-at="2020-07-31T15:18:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddProductToCart -->
+      </class> <!-- Scenarios.Scenario2 -->
+      <class name="Scenarios.Scenario1">
+        <test-method status="PASS" signature="SearchProduct()[pri:0, instance:Scenarios.Scenario1@2357d90a]" name="SearchProduct" duration-ms="12920" started-at="2020-07-31T15:18:08Z" finished-at="2020-07-31T15:18:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchProduct -->
+      </class> <!-- Scenarios.Scenario1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
